@@ -1,5 +1,4 @@
 .test	{
-    //float: right;
     position: absolute;
     left: 50%;
     right: 50%;
@@ -17,11 +16,20 @@ body{
         width: 100%;   
 		margin-top: 0px;
 		margin-left: 0px;
-     //	background: url('http://www.onlyhdwallpaperss.com/wp-content/uploads/2014/03/Computer-background-desktop-hd-images.jpg');
+    // background: url('http://www.onlyhdwallpaperss.com/wp-content/uploads/2014/03/Computer-background-desktop-hd-images.jpg');
 }
 
 .header{
 	background-color: black;
 	width: 100%;
-	height: 60px;
+	height: 0px;
+}
+
+.logo{
+	background-color: black;
+	width: 15%;
+	height: 0px;
+	margin-top: -50px;
+	border-radius: 50px;
+	border:2px solid white;
 }
