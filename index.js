@@ -1,12 +1,19 @@
-$("#logo").animate({height: "201px"});
-$("header").animate({height: "60px"});
-$('header').append('<div>');
-$($('div')[1]).attr('id', 'menu');
-for (i=0; i<6; i++)
-	$('#menu').append('<div>');
+// $("#logo").animate({height: "201px"});
+// $("header").animate({height: "60px"},1000, "linear");
+// $('h1').append('<div>');
+/*$test = document.getElementById('logo');
+$('test').append('<div>');*/
+//$('div').attr("id","nav").append("SWAAAAAAAAG");
+var home = $("<div>");
+home.attr("id", "nav").text("SWAAAAAAAAG");
+$("header").append(home);
 
 
 
+/*$($('div')[1]).attr('id', 'menu');
+/*for (i=0; i<6; i++)
+	$('#menu').append(
+	'<div>');
 
 
 /*<div class="header" id="header">
