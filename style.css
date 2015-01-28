@@ -4,8 +4,8 @@
     right: 50%;
     top: -10px;
     font-size: 150%;
-color: white;
-font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 body{
@@ -27,7 +27,7 @@ header{
 	background-color: black;
 	width: 201px;
 	height: 0px;
-	margin-top: -50px;
+	margin-top: 0px;
 	border-radius: 50px;
 	border:2px solid white;
 }
