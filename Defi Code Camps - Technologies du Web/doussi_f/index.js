@@ -1,10 +1,5 @@
-// $("#logo").animate({height: "201px"});
-// $("header").animate({height: "60px"},1000, "linear");
-// $('h1').append('<div>');
-/*$test = document.getElementById('logo');
-$('test').append('<div>');*/
-//$('div').attr("id","nav").append("SWAAAAAAAAG");
 var home = $("<div>");
+
 home.attr("id", "nav").text("ACCUEIL");
 $("header").append(home);
 
@@ -21,18 +16,29 @@ equipe.attr("id", "nav").text("ÉQUIPE");
 $("header").append(equipe);
 
 var contact = $("<div>");
-contact.attr("id", "nav").text("CONTACT");
+contact.attr("id", "nav").text("CONTACT");2
 $("header").append(contact);
 
 var news = $("<div>");
 news.attr("id", "nav").text("NEWS");
 $("header").append(news);
 
-var eng = $("<div>");
+var chaine = $("<div>");
+var x = document.getElementById("tf1").src;
+    document.getElementById("demo").innerHTML = x;
+	chaine.attr("id", "chaine").append(x);
+
+
+
+
+/*img.src ='http://passion-xbmc.org/MGalleryItem.php?id=292680';
+chaine.attr("id", "chaine").append(img);*/
+
+
+/*var eng = $("<div>");
 eng.attr("id", "nav").text("NEWS");
 $("header").append(news);
-
-
+*/
 
 
 /*$($('div')[1]).attr('id', 'menu');
