@@ -13,8 +13,11 @@ body{
         height: 100%;
         width: 100%;   
 		margin-top:0px;
-		margin-left: 0px;
-    	background: #4196C9;
+border: 2px solid;
+    border-radius: 25px;
+    	margin-left: 0px;
+    	/*background: #4196C9; */
+    	background-color: white;
 }
 
 header{
