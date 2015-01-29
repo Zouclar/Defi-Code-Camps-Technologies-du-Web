@@ -34,4 +34,10 @@ eng.attr("id", "nav").text("NEWS");
 $("header").append(news);
 
 $('footer').append('<div>').attr('id', 'menu_footer');
-$('#menu_footer').prepend('<img id="logo_6" src="./logo6.png" />').prepend('<img id="logo_5" src="./logo5.png" />').prepend('<img id="logo_4" src="./logo4.png" />').prepend('<img id="logo_3" src="./logo3.png" />').prepend('<img id="logo_2" src="./logo2.png" />').prepend('<img id="logo_1" src="./logo1.png" />');
+$('#menu_footer').prepend('<a href="http://tivine.com/blog/?p=79"><img id="logo_6" src="./logo6.png" /></a>').prepend('<img id="logo_5" src="./logo5.png" />').prepend('<img id="logo_4" src="./logo4.png" />').prepend('<a href="http://entrepreneurs.telecom-paristech.fr/"><img id="logo_3" src="./logo3.png" /></a>').prepend('<img id="logo_2" src="./logo2.png" />').prepend('<img id="logo_1" src="./logo1.png" />');
+
+
+
+
+
+
