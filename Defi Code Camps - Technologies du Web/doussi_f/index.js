@@ -32,7 +32,7 @@ $('#menu_footer').prepend('<a href="http://tivine.com/blog/?p=79"><img id="logo_
 
 $('body').append('<div>');
 $($('div')[6]).attr("id","chaine");
-$('#chaine').append('<img id="tf1" src="http://static3.programme-tv.com//images/channels/1.gif"/>');
+$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/2.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/3.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/16.gif"/>');
@@ -44,22 +44,21 @@ $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/70.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/318.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/320.gif"/>');
+$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/315.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/321.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/363.gif"/>');
+$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/179.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1033.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/361.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/363.gif"/>');
-$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/344.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1045.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1046.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1047.gif"/>');
-$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1046.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1048.gif"/>');
-$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1046.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1049.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1050.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/22.gif"/>');
-$('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1046.gif"/>');
+
 
 
 
