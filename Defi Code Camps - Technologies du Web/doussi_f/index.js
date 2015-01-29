@@ -27,8 +27,7 @@ var eng = $("<div>");
 eng.attr("id", "nav").text("NEWS");
 $("header").append(news);
 
-$('').append('<div>').attr('id', 'menu_footer');
-$('#menu_footer').prepend('<a href="http://tivine.com/blog/?p=79"><img id="logo_6" src="./logo6.png" /></a>').prepend('<img id="logo_5" src="./logo5.png" />').prepend('<img id="logo_4" src="./logo4.png" />').prepend('<a href="http://entrepreneurs.telecom-paristech.fr/"><img id="logo_3" src="./logo3.png" /></a>').prepend('<img id="logo_2" src="./logo2.png" />').prepend('<img id="logo_1" src="./logo1.png" />');
+
 
 $('body').append('<div>');
 $($('div')[6]).attr("id","chaine");
@@ -59,3 +58,5 @@ $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1050.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/22.gif"/>');
 
+$('footer').append('<div>').attr('id', 'menu_footer');
+$('#menu_footer').prepend('<a href="http://tivine.com/blog/?p=79"><img id="logo_6" src="./logo6.png" /></a>').prepend('<img id="logo_5" src="./logo5.png" />').prepend('<img id="logo_4" src="./logo4.png" />').prepend('<a href="http://entrepreneurs.telecom-paristech.fr/"><img id="logo_3" src="./logo3.png" /></a>').prepend('<img id="logo_2" src="./logo2.png" />').prepend('<img id="logo_1" src="./logo1.png" />');
