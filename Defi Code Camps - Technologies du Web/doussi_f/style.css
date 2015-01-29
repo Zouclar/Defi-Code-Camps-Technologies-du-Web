@@ -81,3 +81,42 @@ margin-top: -80px;
 float: left;
 margin-left: 50px;
 }
+
+#address{
+float: left;
+margin-left: 50px;
+margin-top: -80px;
+font-size: 16px;
+color: white;
+font-family: monospace;
+}
+
+#contact{
+	float: left;
+	margin-top: -100px;
+	margin-left: 340px;
+	font-size: 16px;
+	font-family: monospace;
+}
+
+#logo_twitter{
+	margin-left: 650px;
+	margin-top: -150px;
+	height: 70px;
+		/*font-size: 1.25em;*/
+	position: absolute;
+}
+
+#logo_linkedin{
+	margin-left: 750px;
+	margin-top: -97px;
+height: 70px;
+position: absolute;
+}
+
+#logo_mail{
+	margin-left: 860px;
+	margin-top: -30px;
+	height: 50px;
+	position: absolute; 
+}

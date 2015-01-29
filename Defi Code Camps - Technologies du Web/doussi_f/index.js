@@ -59,12 +59,3 @@ $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/1050.gif"/>');
 $('#chaine').append('<img id="fr2" src="http://static3.programme-tv.com//images/channels/22.gif"/>');
 
-
-
-
-
-
-
-
-
-
