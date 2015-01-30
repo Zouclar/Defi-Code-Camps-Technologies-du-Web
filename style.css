@@ -5,20 +5,30 @@ body {
         height: 100%;
         width: 100%;   
         margin:0;
-        margin-left: 0px;
         background: #4196C9;
         font-family: 'Titillium Web', sans-serif;
 }
 
-header { height:60px; background-color:black; }
+
+#Header{
+margin:0%;
+background: black;
+color :white;
+font-size:3em;
+}
+
+
+/*header { 
+	height:10%; background-color:black; }
 header > * { float:left; color:white; }
-header > img { max-height:90%; margin-top:4px; }
-header > h1 { 
+header > img { max-height:90%; margin-top:4px; }*/
+
+/*header > h1 { 
   margin-left:20px;
   line-height:60px;
   -webkit-margin-before:0;
   -webkit-margin-after:0;
-}
+}*/
 
 header > div#nav { height:100%; margin-left:1.5em; line-height:60px; color:white; }
 
@@ -81,6 +91,7 @@ margin-top: -80px;
 float: left;
 margin-left: 50px;
 }
+
 
 #address{
 float: left;
