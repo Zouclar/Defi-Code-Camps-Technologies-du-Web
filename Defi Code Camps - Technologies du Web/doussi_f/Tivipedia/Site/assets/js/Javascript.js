@@ -91,7 +91,7 @@ $("#bouton_D8").click(function(){
 	 	$("#test").css({display: "block"});
 	 	GetAllContentForPartAndChannelnow(8);
 	 });
-
+	
 $("#bouton_W9").click(function(){
 	 	$("#portfoliowrap").css({display: "none"});
 	 	$("#test").css({display: "block"});
