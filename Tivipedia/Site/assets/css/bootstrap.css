@@ -5799,6 +5799,8 @@ width: 20%;
 height: inherit;
 display: inline-block;
 margin-left: 2%;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .titre{
@@ -5819,5 +5821,6 @@ width: 50%;
 
 .div_phot {
 width: 50%;
+border-top: 10px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
