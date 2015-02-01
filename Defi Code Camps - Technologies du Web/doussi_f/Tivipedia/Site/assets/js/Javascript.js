@@ -25,31 +25,31 @@ function GetAllContentForPartAndChannelnow(chaine)
 			var type=(data.stamps[i].type);
 			var img=(data.stamps[i].image);
 			var detailUrl=(data.stamps[i].detailUrl)
-if (type == "people"){ 
-						$('#test').append($('<div>').addClass('photo'));
-						//$('.photo').last().append($('<div>').addClass('prgm').text(titre+":"));
-						$('.photo').last().append($('<div>').addClass('titre'));
-						$('.titre').last().append($('<a>').addClass('title').attr('href',detailUrl).text(nom));
-						$('.photo').last().append($('<div>').addClass('div_phot'));
-						$('.div_phot').last().append($('<img>').addClass('tof').attr('src',img));
-						$('.photo').last().append($('<div>').addClass('type').text(type));
+	if (type == "people"){ 
+							$('#test').append($('<div>').addClass('photo'));
+							//$('.photo').last().append($('<div>').addClass('prgm').text(titre+":"));
+							$('.photo').last().append($('<div>').addClass('titre'));
+							$('.titre').last().append($('<a>').addClass('title').attr('href',detailUrl).text(nom));
+							$('.photo').last().append($('<div>').addClass('div_phot'));
+							$('.div_phot').last().append($('<img>').addClass('tof').attr('src',img));
+							$('.photo').last().append($('<div>').addClass('type').text(type));
 
-					}
+						}
 			}
 		},
 		error: function(xhr, status, error) {
-  var err = eval("(" + xhr.responseText + ")");
-  alert(err.Message);
-}
+				  var err = eval("(" + xhr.responseText + ")");
+				  alert(err.Message);
+				}
 		}
 	);
 };
 
-	$("#bouton_TF1").click(function(){
-	 	$("#portfoliowrap").css({display: "none"});
-	 	$("#test").css({display: "block"});
-	 	GetAllContentForPartAndChannelnow(1);
-	 });
+$("#bouton_TF1").click(function(){
+ 	$("#portfoliowrap").css({display: "none"});
+ 	$("#test").css({display: "block"});
+ 	GetAllContentForPartAndChannelnow(1);
+ });
 
 $("#bouton_F2").click(function(){
 	 	$("#portfoliowrap").css({display: "none"});
@@ -260,4 +260,10 @@ $("#bouton_B2").click(function(){
 	 	$("#test").css({display: "block"});
 	 	GetAllContentForPartAndChannelnow(36);
 	 });
+
+
+$("#exit").click(function(){
+	$("#test").css({display: "none"});
+	$("#portfoliowrap").css({display: "block"});
+});
 });
