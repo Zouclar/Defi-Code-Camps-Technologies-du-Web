@@ -11,12 +11,7 @@ function GetAllContentForPartAndChannelnow(chaine)
 		data: {'part':"0",'channel':chaine,'clientId':"10989841",'encodedKey':hash},
 		success:function(data)
 		{
-			for (var i = 0; i <= 100; i++) {
-						//console.log(data);
-			//console.log(data.programs[0].title);
-			//console.log(data.stamps[i].name);
-			//console.log(data.stamps[i].type);
-
+			for (var i = 0; i <= 50; i++) {
 		 	var titre=(data.programs[0].title);
 			var image=(data.programs[0].image);
 			var strt=(data.programs[0].startTime);
@@ -27,13 +22,11 @@ function GetAllContentForPartAndChannelnow(chaine)
 			var detailUrl=(data.stamps[i].detailUrl)
 	if (type == "people"){ 
 							$('#test').append($('<div>').addClass('photo'));
-							//$('.photo').last().append($('<div>').addClass('prgm').text(titre+":"));
 							$('.photo').last().append($('<div>').addClass('titre'));
 							$('.titre').last().append($('<a>').addClass('title').attr('href',detailUrl).text(nom));
 							$('.photo').last().append($('<div>').addClass('div_phot'));
-							$('.div_phot').last().append($('<img>').addClass('tof').attr('src',img));
+							$('.div_phot').last().append($('<img>').addClass('tof').attr('src',img).attr('onerror','this.onerror=null\;this.src=\'http://www.lesvolaillesdeceline.com/images/visuel_non_disponible.jpg\''));
 							$('.photo').last().append($('<div>').addClass('type').text(type));
-
 						}
 			}
 		},
@@ -44,6 +37,12 @@ function GetAllContentForPartAndChannelnow(chaine)
 		}
 	);
 };
+
+$("#exit").click(function(){
+		$("#test").css({display: "none"});
+		location.reload();
+		$("#portfoliowrap").css({display: "block"});
+	});
 
 $("#bouton_TF1").click(function(){
  	$("#portfoliowrap").css({display: "none"});
@@ -260,10 +259,4 @@ $("#bouton_B2").click(function(){
 	 	$("#test").css({display: "block"});
 	 	GetAllContentForPartAndChannelnow(36);
 	 });
-
-
-$("#exit").click(function(){
-	$("#test").css({display: "none"});
-	$("#portfoliowrap").css({display: "block"});
-});
 });
