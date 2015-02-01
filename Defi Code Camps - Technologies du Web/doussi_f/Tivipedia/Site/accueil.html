@@ -17,7 +17,9 @@
     <!-- Boostrap personalise -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <script src="assets/js/modernizr.js"></script>
+    <!-- // <script src="assets/js/modernizr.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assets/js/Javascript.js"></script>
   </head>
 
   <body>
@@ -97,6 +99,7 @@
 	 </div><! --/service -->
 	 
 	<!-- Portfolio chaines TV-->
+	<div id="test"></div>
 	 <div id="portfoliowrap">
         <h3>Chaines TV en direct</h3>
 <!-- =========================== TF1 =================================== -->
@@ -109,7 +112,7 @@
 							<div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">TF1</h3>
                                 <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                                <a href="#" class="dmbutton a2" data-animate="fadeInUp" id="bouton_TF1"><i class="fa fa-link"></i></a>
                         	</div>
 						</div>	
 					</div>
@@ -758,7 +761,8 @@ s’informer et se divertir devant la télévision </p>
 	<script src="assets/js/jquery.prettyPhoto.js"></script>
   	<script src="assets/js/jquery.isotope.min.js"></script>
   	<script src="assets/js/custom.js"></script>
-
+  	<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"></script>
+	<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/hmac-sha512.js"></script>
 
     <script>
  // Portfolio Association avec items
@@ -842,5 +846,6 @@ s’informer et se divertir devant la télévision </p>
 	});
 })(jQuery);
 </script>
+
   </body>
 </html>
