@@ -5,32 +5,23 @@ body {
         height: 100%;
         width: 100%;   
         margin:0;
+        margin-left: 0px;
         background: #4196C9;
         font-family: 'Titillium Web', sans-serif;
 }
 
-
-#Header{
-margin:0%;
-background: black;
-color :white;
-font-size:3em;
-}
-
-
-/*header { 
-	height:10%; background-color:black; }
+header { height:60px; background-color:black; }
 header > * { float:left; color:white; }
-header > img { max-height:90%; margin-top:4px; }*/
-
-/*header > h1 { 
+header > img { max-height:90%; margin-top:4px; }
+header > h1 { 
   margin-left:20px;
   line-height:60px;
   -webkit-margin-before:0;
   -webkit-margin-after:0;
-}*/
+}
 
-header > div#nav { height:100%; margin-left:1.5em; line-height:60px; color:white; }
+header > div#nav { height:100%; margin-left:10.0em; line-height:60px; color:white; }
+
 
 #chaine{
 height: 7%;
@@ -92,7 +83,6 @@ float: left;
 margin-left: 50px;
 }
 
-
 #address{
 float: left;
 margin-left: 50px;
@@ -133,9 +123,26 @@ position: absolute;
 }
 
 #photos{
-	height: 200px;
-    width: 200px;   
-    margin-left: 50%;
-    margin-top: 10%;
+    /*display: inline;	*/
+    height: 20%;
+    width: 85%;   
+    margin-left: 10%;
+    margin-top: 1%;
+    visibility: visible;
     background: black;
+}
+
+#photos *{
+	width: 10%;
+	height: 10%;
+/*	margin-left: 5px;*/
+display: inline-block;
+margin-left: 2%;
+}
+
+.tof{
+	width: 200%;
+	height: 200%;
+	display: inline-block;
+	margin-left: 2%;
 }
